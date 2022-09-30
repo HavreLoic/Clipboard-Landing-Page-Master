@@ -1,0 +1,139 @@
+/*global classes*/
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #4c545d;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #f8f8ff;
+}
+
+p {
+  color: #9fabb2;
+  font-weight: 400;
+}
+
+.test {
+  width: 100%;
+}
+
+/*background url*/
+@media (min-width: 20em) {
+  body {
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 23.125em) {
+  body {
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+  }
+}
+
+/*Mobile version*/
+@media (min-width: 20em) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .buttons-container {
+    padding: 1rem;
+  }
+
+  .btn-success {
+    background-color: #26baa4;
+  }
+
+  .btn-primary {
+    background-color: #6173ff;
+  }
+
+  .brands {
+    width: 50%;
+    object-fit: none;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-logos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .diveces-img {
+    width: 100%;
+  }
+
+  .insta {
+    margin: 0 1.5rem;
+  }
+  .to-be-flexed{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*desktop version*/
+@media (min-width: 62.375em) {
+  .brand-logos {
+    flex-direction: row;
+}
+
+  .div-near-computer {
+    padding: 0 2rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+}
+.holder-f {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50% 50%;
+    padding: 3rem;
+}
+.logo-of-footer {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 4rem;
+}
+.f-select, .f-select-4 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.to-be-flexed {
+    flex-direction: row;
+}
+.media-logo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+  .tools{
+    display: flex;
+  }
+}
