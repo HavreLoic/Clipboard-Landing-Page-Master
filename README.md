@@ -14,7 +14,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://havreloic.github.io/Clipboard-Landing-Page-Master/)
+- Live Site URL: [Add live site URL here](https://clipboard-landing-page-master-havre.netlify.app/)
 
 ### Built with
 
